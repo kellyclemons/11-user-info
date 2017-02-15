@@ -5,8 +5,12 @@
 // @import 'font-awesome';
 @import 'box-sizing';
 
+$c-black: #000;
+$c-gridgrey: #afafaf;
+$c-icongrey: #5e5e5e;
+$c-green: #8fcf6c;
+
 body {
-  /* All backgrounds to go edge-to-edge */
   margin: 0;
   font-family: sans-serif;
 }
@@ -18,4 +22,45 @@ ul {
 
 img {
   max-width: 100%;
+}
+
+.container {
+  max-width: 65rem;
+  margin: auto;
+}
+
+
+
+.contact__item {
+  width: calc(100% / 3 - 2rem);
+  min-width: 16rem;
+  margin: 1rem;
+  float: left;
+  border: 0.1rem solid $c-gridgrey;
+  border-radius: 0.5rem;
+  align: center;
+}
+
+.top-user-div {
+  padding: 1rem;
+  overflow: auto;
+}
+
+.user-image {
+  width: 100px;
+  height: 100px;
+  float: left;
+  border-radius: 20%;
+}
+
+.user-info {
+  margin: 0;
+  padding: 0;
+}
+
+.contact-icon {
+  margin: 0;
+  padding: 0.25rem 1rem;
+  border-top: 0.1rem solid $c-gridgrey;
+  overflow: auto;
 }
