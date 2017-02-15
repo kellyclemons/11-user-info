@@ -4,3 +4,18 @@
 // $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 // @import 'font-awesome';
 @import 'box-sizing';
+
+body {
+  /* All backgrounds to go edge-to-edge */
+  margin: 0;
+  font-family: sans-serif;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
