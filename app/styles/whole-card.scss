@@ -1,0 +1,12 @@
+// *** WHOLE CARD ***
+
+$c-gridgrey: #afafaf;
+
+.contact-info-card {
+  min-width: 16rem;
+  margin: 1rem;
+  float: left;
+  border: 0.1rem solid $c-gridgrey;
+  border-radius: 0.5rem;
+  align: center;
+}

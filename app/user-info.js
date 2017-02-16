@@ -1,8 +1,5 @@
-import 'whatwg-fetch';
-// import data from './user-info';
-// data is an object = {}
-const data = {
-  results: [ // results is an array
+export default {
+  results: [
     {
       gender: 'female',
       name: {
@@ -33,7 +30,7 @@ const data = {
         name: '',
         value: null
       },
-      picture: { // picture is an object
+      picture: {
         large: 'https://randomuser.me/api/portraits/women/51.jpg',
         medium: 'https://randomuser.me/api/portraits/med/women/51.jpg',
         thumbnail: 'https://randomuser.me/api/portraits/thumb/women/51.jpg'
@@ -48,15 +45,3 @@ const data = {
     version: '1.1'
   }
 };
-
-const userImage = document.querySelector('.user-image');
-// taking the class name above and
-// this sets the source of our image to match the data above
-userImage.src = data.results[0].picture.large;
-
-const contactName = document.querySelector('.contact-name');
-const name = data.results[0].name;
-contactName.innerText = `${name.first}, ${name.last}`;
-
-const contactEmail = document.querySelector('.contact-email');
-contactEmail.innerText = data.results[0].email;
