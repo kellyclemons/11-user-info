@@ -40,7 +40,6 @@ main {
 // *** WHOLE CARD ***
 
 .contact-info-card {
-  width: calc(100% / 3 - 2rem);
   min-width: 16rem;
   margin: 1rem;
   float: left;
@@ -52,22 +51,27 @@ main {
 // *** TOP USER DIVISION (GREEN AREA WITH IMAGE) ***
 
 .top-user-div {
-  display: flex;
-  justify-content: center;
-  padding: 1rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
   background: $c-green;
 }
 
-// .arrow-left {
-//
-// }
+.arrow-left {
+  margin: 0;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.image-box {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
 
 .user-image {
-
-  justify-content: center;
-  width: 3rem;
-  height: 3rem;
-  border-radius: 20%;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
 }
 
 .user-info {
@@ -81,3 +85,44 @@ main {
   border-top: 0.1rem solid $c-gridgrey;
   overflow: auto;
 }
+
+// BOTTOM HALF OF CONTACT CARD
+
+// .contact-info-grid {
+// }
+//
+// .contact-info-grid__item {
+//
+// }
+//
+// .contact-icon {
+//
+// }
+//
+// .contact-name (
+//
+// );
+//
+// .mail-icon {
+//
+// }
+//
+// .contact-email {
+//
+// }
+//
+// .media-icon {
+//
+// }
+//
+// .contact-phone {
+//
+// }
+//
+// .world-icon {
+//
+// }
+//
+// .contact-city {
+//
+// }
