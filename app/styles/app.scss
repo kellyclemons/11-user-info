@@ -2,8 +2,14 @@
 // @import 'normalize';
 
 // $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-// @import 'font-awesome';
+@import 'font-awesome';
 @import 'box-sizing';
+@import 'css-resets';
+@import 'double-container';
+@import 'whole-card';
+@import 'top-card-div';
+@import 'css-resets';
+// @import 'bottom-card-div'
 
 $c-black: #000;
 $c-gridgrey: #afafaf;
@@ -12,79 +18,79 @@ $c-green: #8fcf6c;
 
 // *** CSS RESETS ***
 
-body {
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
-}
-
-ul {
-  padding-left: 0;
-  list-style: none;
-}
-
-img {
-  max-width: 100%;
-}
+// body {
+//   margin: 0;
+//   font-family: 'Roboto', sans-serif;
+// }
+//
+// ul {
+//   padding-left: 0;
+//   list-style: none;
+// }
+//
+// img {
+//   max-width: 100%;
+// }
 
 // *** DOUBLE CONTAINER ***
 
-.container {
-  max-width: 65rem;
-  margin: auto;
-}
-
-main {
-  padding: 1rem;
-}
+// .container {
+//   max-width: 65rem;
+//   margin: auto;
+// }
+//
+// main {
+//   padding: 1rem;
+// }
 
 // *** WHOLE CARD ***
 
-.contact-info-card {
-  min-width: 16rem;
-  margin: 1rem;
-  float: left;
-  border: 0.1rem solid $c-gridgrey;
-  border-radius: 0.5rem;
-  align: center;
-}
+// .contact-info-card {
+//   min-width: 16rem;
+//   margin: 1rem;
+//   float: left;
+//   border: 0.1rem solid $c-gridgrey;
+//   border-radius: 0.5rem;
+//   align: center;
+// }
 
 // *** TOP USER DIVISION (GREEN AREA WITH IMAGE) ***
 
-.top-user-div {
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  background: $c-green;
-}
-
-.arrow-left {
-  margin: 0;
-  padding-top: 0.5rem;
-  padding-left: 0.5rem;
-}
-
-.image-box {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 1rem;
-}
-
-.user-image {
-  width: 5rem;
-  height: 5rem;
-  border-radius: 50%;
-}
-
-.user-info {
-  margin: 0;
-  padding: 0;
-}
-
-.contact-icon {
-  margin: 0;
-  padding: 0.25rem 1rem;
-  border-top: 0.1rem solid $c-gridgrey;
-  overflow: auto;
-}
+// .top-user-div {
+//   border-top-left-radius: 0.5rem;
+//   border-top-right-radius: 0.5rem;
+//   background: $c-green;
+// }
+//
+// .arrow-left {
+//   margin: 0;
+//   padding-top: 0.5rem;
+//   padding-left: 0.5rem;
+// }
+//
+// .image-box {
+//   display: flex;
+//   justify-content: center;
+//   padding-bottom: 1rem;
+// }
+//
+// .user-image {
+//   width: 5rem;
+//   height: 5rem;
+//   border-radius: 50%;
+// }
+//
+// .user-info {
+//   margin: 0;
+//   padding: 0;
+// }
+//
+// .contact-icon {
+//   margin: 0;
+//   padding: 0.25rem 1rem;
+//   border-top: 0.1rem solid $c-gridgrey;
+//   overflow: auto;
+// }
 
 // BOTTOM HALF OF CONTACT CARD
 
