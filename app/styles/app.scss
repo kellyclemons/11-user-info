@@ -24,14 +24,16 @@ img {
   max-width: 100%;
 }
 
+main {
+  padding: 1rem;
+}
+
 .container {
   max-width: 65rem;
   margin: auto;
 }
 
-
-
-.contact__item {
+.contact-info-card {
   width: calc(100% / 3 - 2rem);
   min-width: 16rem;
   margin: 1rem;
@@ -45,6 +47,10 @@ img {
   padding: 1rem;
   overflow: auto;
 }
+
+// .contact__item {
+//
+// }
 
 .user-image {
   width: 100px;
